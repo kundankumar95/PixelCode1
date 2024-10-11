@@ -1,0 +1,235 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.best-source {
+  margin-bottom: 40px;
+}
+
+.best-source h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.plans-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plan-item {
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 calc(50% - 20px); 
+  max-width: calc(50% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.plan-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.plan-item p {
+  margin-bottom: 15px;
+}
+
+.cta-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+/* src/components/Achievements.css */
+
+.our-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.our-team h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.achievements-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  gap: 20px; /* Adds space between the containers */
+}
+
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.person-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.person-info {
+  text-align: center;
+}
+
+.person-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.person-info h4 {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.person-info p {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 65%; /* Adjust width to ensure it fits nicely with the form */
+}
+
+.tag {
+  width: 100%; /* Full width for each item in a horizontal layout */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tag h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tag a {
+  display: block;
+  margin: 5px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.tag a i {
+  margin-right: 10px;
+}
+
+.social_link {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social_link a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+.contact-right {
+  width: 25%; /* Reduced width to make the form smaller */
+  background-color: #f9f9f9;
+  padding: 10px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-right h1 {
+  font-size: 18px; /* Slightly smaller font size */
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.form-group {
+  margin-bottom: 8px; /* Reduced margin between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px; /* Reduced margin */
+  font-weight: bold;
+  font-size: 12px; /* Slightly smaller font size */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 6px; /* Reduced padding */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 11px; /* Smaller font size */
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 6px 12px; /* Reduced padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 13px; /* Slightly smaller font size */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+.social_link {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  object-fit: contain; /* Ensures the image fits within its container */
+}
+

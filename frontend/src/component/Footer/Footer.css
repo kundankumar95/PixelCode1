@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.footer-content {
+  flex: 1;
+}
+
+.footer-content span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-image img {
+  max-width: 40px;
+  height: auto;
+  border-radius: 60px;
+}
